@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Christopher Ferrall"
-  avatar           : "profile.png"
+  avatar           : "headshot.PNG"
   bio              : "Professor of Economics"
   location         : "Kingston, Ontario"
   employer         : "Queen's University"
@@ -90,8 +90,6 @@ author:
   ideas            : "https://ideas.repec.org/e/pfe7.html"
   researchgate     :  "https://www.researchgate.net/profile/Christopher_Ferrall"
   github           : "ferrall"
-  orcid            : "http://orcid.org/yourorcidurl"
-
 
 
 # Reading Files
