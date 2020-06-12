@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+Current
+======
+{% include cv/current.html %}
+
 Education
 ======
 <dl>{% include cv/educ.html %}</dl>
