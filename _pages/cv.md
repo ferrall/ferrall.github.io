@@ -22,6 +22,7 @@ Refereed Publications
     {% include cv/rfpub.htm %}
 
 Other Publications
+======
     {% include cv/othpub.htm %}
 
 Work in Progress
