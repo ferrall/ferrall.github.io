@@ -21,21 +21,21 @@ redirect_from:
 
 ## Refereed Publications
 
-    <dl>{% include cv/rfpub.htm %}</dl>
+    <dl> {% include cv/rfpub.htm %} </dl>
 
 ## Other Publications
-    {% include cv/othpub.htm %}
+  <dl>   {% include cv/othpub.htm %} </dl>
 
 ## Work in Progress
-  {% include cv/wkpap.htm %}
+  <dl> {% include cv/wkpap.htm %} </dl>
 
-# Superivision
+# Supervision
 
 ## PhD Students
-  {% include cv/stud.html %}
+  <dl> {% include cv/stud.html %} </dl>
 
 ## Other Supervision
-  {% include cv/super.html %}
+  <dl> {% include cv/super.html %} </dl>
 
 # Experience
   {% include cv/exper.html %}
