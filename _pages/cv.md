@@ -10,10 +10,10 @@ redirect_from:
 {% include base_path %}
 
 
-{% include site.includes/cv/head.htm}
-{% include _includes/cv/exper.htm}
-{% include _includes/cv/stud.htm}
-{% include _includes/cv/super.htm}
+{% include includes/cv/head.htm}
+{% include includes/cv/exper.htm}
+{% include includes/cv/stud.htm}
+{% include includes/cv/super.htm}
 
 {% for post in site.includes/cv  %}
   {% include archive-single.html %}
