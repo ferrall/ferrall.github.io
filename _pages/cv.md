@@ -17,11 +17,16 @@ Education
 ======
   {% include cv/educ.html %}
 
-Publications
+Refereed Publications
 ======
-    <ul>{% for post in site.publications %}
-      {% include archive-single-cv.html %}
-    {% endfor %}</ul>
+    {% include cv/rfpub.htm %}
+
+Other Publications
+    {% include cv/othpub.htm %}
+
+Work in Progress
+======
+  {% include cv/wkpap.htm %}
 
 PhD Students
 ======
