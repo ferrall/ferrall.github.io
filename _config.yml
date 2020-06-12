@@ -83,7 +83,7 @@ author:
   name             : "Christopher Ferrall"
   avatar           : "headshot.PNG"
   bio              : "Professor of Economics"
-  location         : 
+  location         :
   employer         : "Queen's University"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=0kg6ZXoAAAAJ"
   email            : "ferrallc@queensu.ca"
@@ -240,6 +240,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-toc
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
