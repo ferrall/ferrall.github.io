@@ -20,7 +20,7 @@ redirect_from:
 # Publications
 
 ## Refereed Publications
-  {% include cv/rfpub.htm %} 
+  {% include cv/rfpub.htm %}
 
 ## Other Publications
   <dl> {% include cv/othpub.htm %} </dl>
@@ -31,10 +31,10 @@ redirect_from:
 # Supervision
 
 ## PhD Students
-  <dl> {% include cv/stud.html %} </dl>
+   {% include cv/stud.html %}
 
 ## Other Supervision
-  <dl> {% include cv/super.html %} </dl>
+   {% include cv/super.html %}
 
 # Experience
   {% include cv/exper.html %}
