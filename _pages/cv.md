@@ -9,6 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
+{% capture toc %}
+{% include toc_pure_liquid.html html=content sanitize=true h_min=1 h_max=1 %}
+{% endcapture %}
+
+{% unless toc == blank %}
+    <h1>{{ site.TOC }}</h1>
+    <div class='whatTheTOC'>{{ post.summary }}</div>
+    {{ toc }}
+{% endunless %}
+
 Current
 ======
   {% include cv/current.html %}
