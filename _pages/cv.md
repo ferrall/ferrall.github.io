@@ -15,7 +15,9 @@ redirect_from:
   {% include cv/current.html %}
 
 # Education
+  <DL>
   {% include cv/educ.html %}
+  </DL>
 
 # Publications
 
