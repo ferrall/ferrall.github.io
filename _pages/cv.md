@@ -20,7 +20,7 @@ redirect_from:
 # Publications
 
 ## Refereed Publications
-    <dl> {% include cv/rfpub.htm %} </dl>
+  {% include cv/rfpub.htm %} 
 
 ## Other Publications
   <dl> {% include cv/othpub.htm %} </dl>
