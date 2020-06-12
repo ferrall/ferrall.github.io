@@ -8,13 +8,3 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-
-{% include includes/cv/head.htm}
-{% include includes/cv/exper.htm}
-{% include includes/cv/stud.htm}
-{% include includes/cv/super.htm}
-
-{% for post in site.includes/cv  %}
-  {% include archive-single.html %}
-{% endfor %}
