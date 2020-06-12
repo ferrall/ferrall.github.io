@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
+{% include base_path %}
+
+
+{% include _includes/cv/head.htm}
+{% include _includes/cv/exper.htm}
+{% include _includes/cv/stud.htm}
+{% include _includes/cv/super.htm}
