@@ -11,11 +11,12 @@ redirect_from:
 
 Education
 ======
-<DL>{% include cv/educ.html %}</DL>
+<dl>{% include cv/educ.html %}</dl>
 
 Experience
 ======
-<DL>{% include cv/exper.html %}  </DL>
+<dl>{% include cv/exper.html %}
+</dl>
 
 Publications
 ======
