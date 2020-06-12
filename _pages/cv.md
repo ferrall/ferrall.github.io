@@ -14,7 +14,7 @@ Education
 
 Experience
 ======
-<DL>{% include site.includes.cv.exper.htm }  </DL
+<DL>{% include exper.htm }  </DL
 
 Publications
 ======
