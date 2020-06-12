@@ -15,30 +15,44 @@ Current
 
 Education
 ======
-  <dl>{% include cv/educ.html %}</dl>
+  {% include cv/educ.html %}
+
+Publications
+======
+    <ul>{% for post in site.publications %}
+      {% include archive-single-cv.html %}
+    {% endfor %}</ul>
 
 PhD Students
 ======
   {% include cv/stud.html %}
 
+Other Supervision of Students
+======
+  {% include cv/super.html %}
+
 Experience
 ======
-{% include cv/exper.html %}
+  {% include cv/exper.html %}
 
-Publications
+Conference and Seminar Presentations
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% include cv/conf.htm %}
 
-Talks
+Grants and Research Contracts
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  {% include cv/grant.htm %}
 
-Teaching
+Current Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+Previous Teaching
+======
+  {% include cv/class.htm %}
+
+Administration and Service
+======
+  {% include cv/admin.htm %}
