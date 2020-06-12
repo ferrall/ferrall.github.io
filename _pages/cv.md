@@ -23,15 +23,15 @@ redirect_from:
   {% include cv/rfpub.htm %}
 
 ## Other Publications
-  <dl> {% include cv/othpub.htm %} </dl>
+  {% include cv/othpub.htm %}
 
 ## Work in Progress
-  <dl> {% include cv/wkpap.htm %} </dl>
+  {% include cv/wkpap.htm %}
 
 # Supervision
 
 ## PhD Students
-   {% include cv/stud.html %}
+  {% include cv/stud.html %}
 
 ## Other Supervision
    {% include cv/super.html %}
