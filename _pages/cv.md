@@ -11,6 +11,7 @@ redirect_from:
 
 Education
 ======
+<DL>{% include cv/educ.html %}</DL>
 
 Experience
 ======
