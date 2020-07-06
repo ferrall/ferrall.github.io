@@ -1,5 +1,5 @@
 ---
-title: "niqlow"
+title: "niqlow & OODP"
 excerpt: "<img src='/images/nicon64.png'>A platform to design, solve and estimate Dynamic Programs"
 collection: portfolio
 ---
